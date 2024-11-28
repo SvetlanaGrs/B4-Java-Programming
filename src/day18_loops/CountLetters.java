@@ -1,5 +1,7 @@
 package day18_loops;
 
+import java.util.Scanner;
+
 public class CountLetters {
     /*
 
@@ -16,7 +18,7 @@ public class CountLetters {
         String word = "aabbcaa";
         char letter = 'b';
         int count = 0;
-        
+
         /* ON INTERVIEW THEY CAN ASK
         I would loop through the characters/ letter and check 1 by 1 if it is equal
         If it is equal, i would count
@@ -31,6 +33,5 @@ public class CountLetters {
             }
         }
         System.out.println("In " +word + " we have " + count + "\'" +  letter + "\' character");
-
     }
 }
