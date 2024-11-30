@@ -13,14 +13,15 @@ public class CamelCaseTODO {
         System.out.print("Please enter sentence: ");
         String str = key.nextLine().toLowerCase().trim();
         String camelCase = "" + str.charAt(0);
-        char ch =1;
+        int ch =1;
 
-        while (str.charAt(ch-1)==' ') {
-            camelCase += (""+ str.charAt(1)).toUpperCase();
-            ch++;
-            if (str.charAt(ch-1)!=' ');{
+        while (ch<str.length()) {
+            if(str.charAt(ch-1)==' ') {
+                camelCase += (""+ str.charAt(ch)).toUpperCase();
+            }else {
                 camelCase += str.charAt(ch);
             }
+            ch++;
 
         }
 
