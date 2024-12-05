@@ -1,0 +1,11 @@
+package day22_arrays;
+
+import java.util.Arrays;
+
+public class JoinExample {
+    public static void main(String[] args) {
+        String [] str = {"a", "b", "c"};
+        System.out.println(Arrays.toString(str));
+       String.join("-", str);
+    }
+}
