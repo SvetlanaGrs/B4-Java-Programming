@@ -87,4 +87,39 @@ public class ArrayUtil {
         }
         return total;
     }
+
+    /**
+     * This method returns int [] arr with the given element  at the end
+     * @param arr given int [] arr
+     * @param num
+     * @return
+     */
+    public static int [] addElemInArr (int [] arr, int num){
+
+        int [] addedArr = Arrays.copyOf(arr,arr.length+1); //{1, 2, 3, 4, 5, x}
+        addedArr [addedArr.length-1] = num;
+
+        return addedArr;
+    }
+
+
+
+    /**
+     *This method returns int [] arr with the given int var args elements  at the end of the given array
+     * @param arr
+     * @param arr2
+     * @return int array
+     */
+    public static int [] addElemInArr (int [] arr, int ... arr2) {
+        int [] addedArr = Arrays.copyOf(arr, arr.length+arr2.length);
+
+        for (int i = arr.length, j =0; i < addedArr.length; i++, j++) {
+            addedArr[i] = arr2[j];
+        }
+        return addedArr;
+    }
+
+    /*
+    TODO: add the version  of (method overloaded) for the string (last two methods)
+     */
 }
