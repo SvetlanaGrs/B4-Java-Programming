@@ -1,4 +1,4 @@
-package git27_wrapper_array;
+package day27_wrapper_array;
 
 public class GoogleSearch {
     public static void main(String[] args) {
