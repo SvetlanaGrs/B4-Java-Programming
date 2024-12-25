@@ -1,6 +1,4 @@
-package git27_wrapper_array;
-
-import my_utilities.ArrayUtil;
+package day27_wrapper_array;
 
 import java.util.Arrays;
 
