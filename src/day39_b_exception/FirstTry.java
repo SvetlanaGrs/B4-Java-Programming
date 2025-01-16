@@ -15,7 +15,7 @@ public class FirstTry {
         String str = "loop";
         //            0123
 
-
+      //  System.out.println(str.charAt(index));
 
         try {
             System.out.println( str.charAt( index ) ); // StringIndexOutOfBoundsException
