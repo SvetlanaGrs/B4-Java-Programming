@@ -2,7 +2,7 @@ package day41_collection.list;
 
 import java.util.Stack;
 
-public class StackObjects {
+public class  StackObjects {
     public static void main(String[] args) {
         Stack<Character> stack = new Stack<>();
 
